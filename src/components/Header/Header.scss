@@ -1,6 +1,7 @@
+@import '../base.scss';
 header {
-    background-color: darkblue;
-    color: aliceblue;
+    background-color: $dark-bg-color;
+    color: $alt-text-color;
     text-align: center;
 }
 
