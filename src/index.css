@@ -10,3 +10,7 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'PT Serif', serif;
 }
+
+.container, .container-fluid {
+  padding: 0;
+}
