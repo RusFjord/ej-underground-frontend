@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import './Header.css'
+import './Header.scss'
 
 function Header() {
     return (
