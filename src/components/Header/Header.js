@@ -1,7 +1,6 @@
 import './Header.css'
-//const bgheader = require('./')
 
-function App() {
+function Header() {
     return (
       <header className="Header">
           <h2>EJ Underground</h2>
@@ -9,4 +8,4 @@ function App() {
     )
   }
   
-  export default App
+  export default Header
