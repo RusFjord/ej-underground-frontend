@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import './components/base.scss';
+
 body {
   font-family: 'PT Sans', sans-serif;
   padding: 0;
   margin: 0;
+  background-color: $base-bg-color;
+  color: $base-text-color;
 }
 
 h1, h2, h3, h4, h5 {
