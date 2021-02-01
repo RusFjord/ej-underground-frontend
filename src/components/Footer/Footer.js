@@ -3,10 +3,12 @@ import { Container } from 'react-bootstrap'
 import './Footer.scss'
 
 function Footer() {
-  return (
-    <Container>
-      <p>Футер</p>
-    </Container>
+  return (   
+    <footer className='fixed-bottom'>
+        <Container>
+          <p>{ new Date().getFullYear() } &copy; ULTeam8</p>
+        </Container>    
+    </footer>
   )
 }
 

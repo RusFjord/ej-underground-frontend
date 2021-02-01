@@ -1,0 +1,12 @@
+@import '../base.scss';
+
+footer {
+    background-color: $alt-bg-color;
+    color: $alt-text-color;
+    text-align: center;   
+    padding: .5em;
+
+    p {
+        margin: 0;
+    }
+}
