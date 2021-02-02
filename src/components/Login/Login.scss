@@ -1,0 +1,17 @@
+@import '../base.scss';
+.login-form {
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.login-form-button {
+    background-color: $base-button-color;
+    color: $alt-text-color;
+    border-color: $base-button-color;
+    &:hover {
+        background-color: $light-button-color;
+        border-color: $light-button-color;
+        color: $base-text-color;
+    }
+}
